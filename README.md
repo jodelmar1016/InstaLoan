@@ -1,1 +1,3 @@
 # InstaLoan
+bootstrap
+fontawesome
