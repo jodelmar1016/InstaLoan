@@ -1,0 +1,328 @@
+/* Login page */
+.form-container{
+    text-align: center;
+    background: #d3edf5;
+    padding: 10px;
+}
+.btn-login{
+    width: 100%;
+}
+.form-check{
+    text-align: left;
+}
+.logo2{
+    height: 45px;
+    width: 280px;
+    margin-top: 15px;
+}
+.l-c-f{
+    color: #000 !important;
+}
+@media all and (min-width: 768px){
+    .form-container{
+        width: 70%;
+    }
+    .logo2{
+        height: 80px;
+        width: 500px;
+        margin-top: 15px;
+    }
+}
+@media all and (min-width: 1200px){
+    .form-container{
+        width: 50%;
+    }
+    .logo2{
+        height: 120px;
+        width: 800px;
+        margin-top: 15px;
+    }
+}
+
+/* Signup page */
+.con-form{
+    text-align: center;
+    background: #d3edf5;
+    padding: 10px;
+}
+.btn-signup{
+    width: 100%;
+}
+.form-check{
+    text-align: left;
+}
+.logo2{
+    height: 45px;
+    width: 280px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+@media all and (min-width: 768px){
+    .con-form{
+        width: 70%;
+    }
+    .logo2{
+        height: 80px;
+        width: 500px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+}
+@media all and (min-width: 1024px){
+    .con-form{
+        width: 50%;
+    }
+    .logo2{
+        height: 80px;
+        width: 500px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+}
+
+/* Profile page */
+.p-container{
+    margin-top: 30px;
+}
+.name{
+    display: block;
+}
+.p-val{
+    border-bottom: 1px solid #fff;
+    height: 30px;
+}
+.p-row{
+    margin-bottom: 10px;
+}
+.p-profile-pic{
+    width: 150px;
+    height: 150px;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    display: block;
+}
+.p-profile-pic>h1{
+    line-height: 2em;
+    font-size: 4em;
+}
+@media (min-width: 1200px) {
+    .p-container{
+        max-width: 1000px;
+        margin-top: 30px;
+    }
+    .name{
+        font-size: 3em;
+        margin-left: 5px;
+    }
+    p{
+        font-size: 20px;
+    }
+    .p-val{
+        border-bottom: 1px solid #fff;
+        height: 30px;
+    }
+    .p-row{
+        margin-bottom: 20px;
+    }
+    .p-profile-pic{
+        width: 150px;
+        height: 150px;
+        border: 1px solid white;
+        border-radius: 50%;
+        text-align: center;
+        display: inline-block;
+    }
+    .p-profile-pic>h1{
+        line-height: 2em;
+        font-size: 4em;
+    }
+}
+
+/* Adminview page*/
+.con-tb{
+    width: 100%;
+}
+@media all and (min-width: 768px){
+    .con-tb{
+        width: 100%;
+    }
+}
+@media all and (min-width: 1200px){
+    .con-tb{
+        width: 75%;
+    }
+}
+
+/* Request table */
+.card-req{
+    max-width: 100%;
+}
+@media all and (min-width: 1024px){
+    .card-req{
+        max-width: 65%;
+    }
+}
+
+/* Loan table */
+.card-loan{
+    max-width: 100%;
+}
+.lnumber::-webkit-inner-spin-button, .lnumber::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+@media all and (min-width: 1200px){
+    .card-loan{
+        max-width: 80%;
+    }
+}
+
+/* apply loan */
+.container-apply{
+    text-align: center;
+    background: #d3edf5;
+    padding: 10px;
+    margin: 0 auto;
+}
+.btn-apply{
+    width: 100%;
+    background: #6cd9c3;
+    border: 2px solid #044969;
+}
+@media all and (min-width: 768px){
+    .container-apply{
+        width: 50%;
+    }
+}
+
+.slider{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #6cd9c3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    border: 2px solid #044969;
+}
+.slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #6cd9c3;
+    cursor: pointer;
+    border: 2px solid #044969;
+}
+.slider::-moz-range-thumb{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #6cd9c3;
+    cursor: pointer;
+    border: 2px solid #044969;
+}
+
+/* Main page */
+.banner{
+    background-image: url('img/banner.jpg');
+    width: 100%;
+    height: 150px;
+}
+.banner h4{
+    line-height: 2em;
+    font-size: 1.7em;
+}
+.banner a{
+    border-radius: 20px;
+}
+body .container{
+    margin-top: 30px;
+}
+.main-con{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.main-logo{
+    width: 60px;
+    height: 60px;
+}
+.main-list{
+    list-style-type: none;
+    font-size: 20px;
+}
+#aboutUs{
+    width: 100%;
+}
+.num{
+    width: 25px;
+    height: 25px;
+}
+.main-list li{
+    margin: 15px 0;
+}
+.main-list li span{
+    margin-right: 10px;
+}
+.in-img{
+    width: 15px;
+    height: 15px;
+    margin-left: 20px;
+}
+.f-con{
+    padding-top: 50px;
+}
+.spac img{
+    width: 30px;
+    height: 30px;
+    margin: 0 8px;
+}
+p a, .site{
+    color: #fff !important;
+}
+@media all and (min-width: 768px){
+    .banner{
+        background-image: url('img/banner.jpg');
+        width: 100%;
+        height: 250px;
+    }
+    .banner h4{
+        font-size: 60px;
+        line-height: 2em;
+    }
+    .banner a{
+        font-size: 30px;
+        width: 250px;
+        border-radius: 30px;
+    }
+    .main-con{
+        width: 70%;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    #aboutUs{
+        width: 40%;
+    }
+    .num{
+        width: 50px;
+        height: 50px;
+    }
+    .spac img{
+        width: 50px;
+        height: 50px;
+        margin: 0 8px;
+    }
+    .f-con{
+        padding-top: 50px;
+    }
+    p .a, .site{
+        color: #fff;
+    }
+}
